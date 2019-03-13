@@ -1,5 +1,6 @@
 $(document).ready(function() {  
-
+    var wins = 0
+    var loses = 0
     var currentAmount = ''
     var crystalNum = ''
     var diamondNum = ''
@@ -49,9 +50,7 @@ $(document).ready(function() {
         },400)        
     });
     
-    function checkWinLose() {
-        var wins = 0
-        var loses = 0
+    function checkWinLose() {        
         if (currentAmount > targetAmount) {
             loses++
             $('#loseElement').text(loses)
