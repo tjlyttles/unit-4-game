@@ -1,6 +1,6 @@
 $(document).ready(function() {  
-    var wins = 0
-    var loses = 0
+    var wins = ''
+    var loses = ''
     var currentAmount = ''
     var crystalNum = ''
     var diamondNum = ''
