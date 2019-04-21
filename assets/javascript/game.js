@@ -60,7 +60,7 @@ $(document).ready(function() {
                 newGame()
             } else {
                 alert('Until next time.')
-                window.close()
+                self.close()
             }
         } else if (currentAmount === targetAmount) {
             wins++
@@ -71,7 +71,7 @@ $(document).ready(function() {
                 newGame()
             } else {
                 alert('Until next time.')
-                window.close()
+                self.close()
             }
         }
     }     
